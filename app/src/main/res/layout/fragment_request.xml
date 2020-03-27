@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dim_8dp"
+            android:layout_marginTop="@dimen/dim_8dp"
+            android:layout_marginEnd="@dimen/dim_8dp"
+            android:background="@drawable/shap_et"
+            >
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/fragment_request_et_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/namename" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dim_8dp"
+            android:layout_marginTop="@dimen/dim_8dp"
+            android:layout_marginEnd="@dimen/dim_8dp"
+            android:background="@drawable/shap_et"
+            >
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/fragment_request_et_age"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/age" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dim_45dp"
+            android:layout_marginStart="@dimen/dim_8dp"
+            android:layout_marginTop="@dimen/dim_8dp"
+            android:layout_marginEnd="@dimen/dim_8dp"
+            android:background="@drawable/shap_et2"
+            android:padding="@dimen/dim_4dp"
+            android:textSize="@dimen/txt_14sp"
+            >
+
+            <Spinner
+                android:id="@+id/fragment_request_sp_bloodtypes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="17dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dim_45dp"
+            android:layout_marginStart="@dimen/dim_8dp"
+            android:layout_marginTop="@dimen/dim_8dp"
+            android:layout_marginEnd="@dimen/dim_8dp"
+            android:background="@drawable/shap_et2"
+            android:padding="@dimen/dim_4dp"
+            android:textSize="@dimen/txt_14sp"
+            >
+
+            <Spinner
+                android:id="@+id/fragment_request_sp_count"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dim_8dp"
+            android:layout_marginTop="@dimen/dim_8dp"
+            android:layout_marginEnd="@dimen/dim_8dp"
+            android:background="@drawable/shap_et">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/fragment_request_et_hospital_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hospital_name" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dim_8dp"
+                android:layout_marginTop="@dimen/dim_8dp"
+                android:layout_marginEnd="@dimen/dim_8dp"
+                android:layout_weight="1"
+                >
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/fragment_request_et_hospital_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Hospital Address" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <ImageView
+                android:id="@+id/fragment_request_im_place"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_place_black_24dp"
+                />
+
+
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dim_45dp"
+            android:layout_marginStart="@dimen/dim_8dp"
+            android:layout_marginTop="@dimen/dim_8dp"
+            android:layout_marginEnd="@dimen/dim_8dp"
+            android:background="@drawable/shap_et2"
+            android:padding="@dimen/dim_4dp"
+            android:textSize="@dimen/txt_14sp"
+            >
+
+            <Spinner
+                android:id="@+id/fragment_request_sp_government"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/fragment_request_rl_container"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dim_45dp"
+            android:layout_marginStart="@dimen/dim_8dp"
+            android:layout_marginTop="@dimen/dim_8dp"
+            android:layout_marginEnd="@dimen/dim_8dp"
+            android:background="@drawable/shap_et2"
+            android:padding="@dimen/dim_4dp"
+            android:textSize="@dimen/txt_14sp"
+            >
+
+            <Spinner
+                android:id="@+id/fragment_request_sp_city"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dim_8dp"
+            android:layout_marginTop="@dimen/dim_8dp"
+            android:layout_marginEnd="@dimen/dim_8dp"
+            android:background="@drawable/shap_et">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/fragment_request_et_phone_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/phone_number" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dim_8dp"
+            android:layout_marginTop="@dimen/dim_8dp"
+            android:layout_marginEnd="@dimen/dim_8dp"
+            android:background="@drawable/shap_et">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/fragment_request_et_notes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/notes" />
+        </android.support.design.widget.TextInputLayout>
+        <Button
+            android:id="@+id/fragment_request_btn_send_request"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/send_request"
+            android:layout_marginStart="@dimen/dim_8dp"
+            android:layout_marginTop="@dimen/dim_8dp"
+            android:layout_marginEnd="@dimen/dim_8dp"
+            android:background="@drawable/shap_btn"
+            />
+
+    </LinearLayout>
+
+
+</ScrollView>

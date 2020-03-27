@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+
+    <TextView
+        android:id="@+id/fragment_dtails_request_tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="@dimen/dim_8dp"
+        android:layout_marginEnd="@dimen/dim_8dp"
+        android:layout_marginStart="@dimen/dim_8dp"
+        android:text="Name :"
+        />
+
+    <TextView
+        android:id="@+id/fragment_dtails_request_tv_age"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="@dimen/dim_8dp"
+        android:layout_marginEnd="@dimen/dim_8dp"
+        android:layout_marginStart="@dimen/dim_8dp"
+        android:text="Age :"
+        />
+    <TextView
+        android:id="@+id/fragment_dtails_request_tv_blood_type"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="@dimen/dim_8dp"
+        android:layout_marginEnd="@dimen/dim_8dp"
+        android:layout_marginStart="@dimen/dim_8dp"
+        android:text="Blood Type :"
+        />
+    <TextView
+        android:id="@+id/fragment_dtails_request_tv_number_of_packs"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="@dimen/dim_8dp"
+        android:layout_marginEnd="@dimen/dim_8dp"
+        android:layout_marginStart="@dimen/dim_8dp"
+        android:text="Number Of Packs :"
+        />
+    <TextView
+        android:id="@+id/fragment_dtails_request_tv_hospital"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="@dimen/dim_8dp"
+        android:layout_marginEnd="@dimen/dim_8dp"
+        android:layout_marginStart="@dimen/dim_8dp"
+        android:text="Hospital :"
+        />
+    <TextView
+        android:id="@+id/fragment_dtails_request_tv_hospital_address"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="@dimen/dim_8dp"
+        android:layout_marginEnd="@dimen/dim_8dp"
+        android:layout_marginStart="@dimen/dim_8dp"
+        android:text="Hospital Address :"
+        />
+    <TextView
+        android:id="@+id/fragment_dtails_request_tv_phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="@dimen/dim_8dp"
+        android:layout_marginEnd="@dimen/dim_8dp"
+        android:layout_marginStart="@dimen/dim_8dp"
+        android:text="Phone Number :"
+        />
+    <TextView
+        android:id="@+id/fragment_dtails_request_tv_details"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="@dimen/dim_8dp"
+        android:layout_marginEnd="@dimen/dim_8dp"
+        android:layout_marginStart="@dimen/dim_8dp"
+        android:text="Details :"
+
+        />
+
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+       android:layout_margin="@dimen/dim_8dp"
+        />
+
+    <Button
+            android:id="@+id/fragment_dtails_request_btn_call"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Call "
+            android:background="@drawable/shape_btn_green"
+            android:layout_marginStart="@dimen/dim_8dp"
+            android:layout_marginEnd="@dimen/dim_8dp"
+            android:layout_marginBottom="@dimen/dim_8dp"
+
+            />
+</LinearLayout>

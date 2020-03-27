@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dim_24dp"
+        android:layout_marginEnd="@dimen/dim_24dp"
+        android:padding="@dimen/dim_45dp"
+        app:srcCompat="@drawable/logo"
+        android:layout_above="@id/cantact_us_fragment_tv_phone"
+        android:layout_alignParentTop="true"
+
+        />
+
+    <TextView
+        android:id="@+id/cantact_us_fragment_tv_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dim_8dp"
+        android:layout_marginEnd="@dimen/dim_8dp"
+        android:layout_marginBottom="@dimen/dim_8dp"
+        android:drawableLeft="@drawable/ic_call_black_24dp"
+        android:layout_above="@id/cantact_us_fragment_tv_email"        android:text="   Phone : 1234 123 1234"
+    />
+    <TextView
+        android:id="@+id/cantact_us_fragment_tv_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dim_8dp"
+        android:layout_marginEnd="@dimen/dim_8dp"
+        android:layout_marginBottom="@dimen/dim_8dp"
+android:layout_above="@id/contact_us_fragment_ibtn_facebook"        android:drawableLeft="@drawable/ic_mail_outline_black_24dp"
+        android:text="   Email : name@name.com"
+        />
+    <Button
+        android:id="@+id/contact_us_fragment_btn_contact_us"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/contact_us"
+        android:layout_marginEnd="@dimen/dim_8dp"
+        android:layout_marginStart="@dimen/dim_8dp"
+        android:layout_marginBottom="@dimen/dim_8dp"
+        android:background="@drawable/shap_btn"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        />
+
+    <ImageButton
+        android:id="@+id/contact_us_fragment_ibtn_facebook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/facebook"
+        android:layout_above="@id/contact_us_fragment_btn_contact_us"
+        />
+
+    <ImageButton
+        android:id="@+id/contact_us_fragment_ibtn_twiter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/twiter"
+        android:layout_above="@id/contact_us_fragment_btn_contact_us"
+        android:layout_toRightOf="@id/contact_us_fragment_ibtn_facebook"
+        />
+
+    <ImageButton
+        android:id="@+id/contact_us_fragment_ibtn_youtube"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/youtube"
+        android:layout_above="@id/contact_us_fragment_btn_contact_us"
+        android:layout_toRightOf="@id/contact_us_fragment_ibtn_twiter"
+        />
+
+    <ImageButton
+        android:id="@+id/contact_us_fragment_ibtn_instagram"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/instagram"
+        android:layout_above="@id/contact_us_fragment_btn_contact_us"
+        android:layout_toRightOf="@id/contact_us_fragment_ibtn_youtube"
+        />
+
+    <ImageButton
+        android:id="@+id/contact_us_fragment_ibtn_whats_app"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/whatsapp"
+        android:layout_above="@id/contact_us_fragment_btn_contact_us"
+        android:layout_toRightOf="@id/contact_us_fragment_ibtn_instagram"
+        />
+
+    <ImageButton
+        android:id="@+id/contact_us_fragment_ibtn_gogle_plus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/gogleplus"
+        android:layout_above="@id/contact_us_fragment_btn_contact_us"
+        android:layout_toRightOf="@id/contact_us_fragment_ibtn_whats_app"
+        />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/contact_us_fragment_til_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dim_8dp"
+        android:layout_marginTop="@dimen/dim_8dp"
+        android:layout_marginEnd="@dimen/dim_8dp"
+        android:layout_below="@id/contact_us_fragment_btn_contact_us"
+        android:background="@drawable/shap_et">
+
+    <android.support.design.widget.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:hint="@string/namename"
+        android:inputType="text"
+        android:paddingLeft="@dimen/dim_4dp" />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/contact_us_fragment_til_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dim_8dp"
+        android:layout_marginTop="@dimen/dim_8dp"
+        android:layout_marginEnd="@dimen/dim_8dp"
+android:layout_below="@id/contact_us_fragment_til_name"        android:background="@drawable/shap_et">
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="@dimen/dim_4dp" />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/contact_us_fragment_til_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dim_8dp"
+        android:layout_marginTop="@dimen/dim_8dp"
+        android:layout_marginEnd="@dimen/dim_8dp"
+android:layout_below="@id/contact_us_fragment_til_email"        android:background="@drawable/shap_et">
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:hint="Name"
+            android:inputType="phone"
+            android:paddingLeft="@dimen/dim_4dp" />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/contact_us_fragment_til_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dim_8dp"
+        android:layout_marginTop="@dimen/dim_8dp"
+        android:layout_marginEnd="@dimen/dim_8dp"
+android:layout_below="@id/contact_us_fragment_til_phone"        android:background="@drawable/shap_et">
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:hint="Title"
+            android:inputType="text"
+            android:paddingLeft="@dimen/dim_4dp" />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/contact_us_fragment_til_subject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dim_8dp"
+        android:layout_marginTop="@dimen/dim_8dp"
+        android:layout_marginEnd="@dimen/dim_8dp"
+android:layout_below="@id/contact_us_fragment_til_title"        android:background="@drawable/shap_et">
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:hint="Subject"
+            android:inputType="text"
+            android:paddingLeft="@dimen/dim_4dp" />
+    </android.support.design.widget.TextInputLayout>
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/contact_us_fragment_btn_send"
+    android:background="@drawable/shap_btn"
+    android:layout_alignParentBottom="true"
+    android:text="@string/send"
+    android:layout_marginEnd="@dimen/dim_8dp"
+    android:layout_marginStart="@dimen/dim_8dp"
+    android:layout_marginBottom="@dimen/dim_8dp"
+    />
+
+
+</RelativeLayout>

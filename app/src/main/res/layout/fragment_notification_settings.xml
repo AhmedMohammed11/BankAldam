@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/notificationsettings_fragment_tv_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/dim_8dp"
+        android:layout_marginStart="@dimen/dim_8dp"
+        android:layout_marginBottom="@dimen/dim_8dp"
+        android:layout_marginTop="@dimen/dim_8dp"
+        android:layout_alignParentTop="true"
+        android:text="test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test "
+        android:textSize="16sp"
+        />
+    <TextView
+        android:id="@+id/notificationsettings_fragment_tv_blood_types"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/dim_8dp"
+        android:layout_marginStart="@dimen/dim_8dp"
+        android:layout_marginBottom="@dimen/dim_8dp"
+        android:text="@string/blood_types"
+        android:layout_below="@id/notificationsettings_fragment_tv_test"
+        />
+
+    <TableLayout
+        android:id="@+id/notificationsettings_fragment_tl_table"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/dim_8dp"
+        android:layout_marginStart="@dimen/dim_8dp"
+        android:layout_marginBottom="@dimen/dim_8dp"
+        android:background="@color/white"
+        android:layout_below="@id/notificationsettings_fragment_tv_blood_types"
+
+        >
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            >
+
+            <CheckBox
+                android:id="@+id/notificationsettings_fragment_cb_o"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/dim_16dp"
+                android:layout_marginStart="@dimen/dim_45dp"
+                android:text="O+" />
+
+            <CheckBox
+                android:id="@+id/notificationsettings_fragment_cb_a-"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+
+                android:text="A-" />
+
+            <CheckBox
+                android:id="@+id/notificationsettings_fragment_cb_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/dim_16dp"
+                android:text="A+" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <CheckBox
+                android:id="@+id/notificationsettings_fragment_cb_o-"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dim_45dp"
+                android:padding="@dimen/dim_16dp"
+                android:text="O-" />
+
+            <CheckBox
+                android:id="@+id/notificationsettings_fragment_cb_ab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               android:layout_marginRight="40dp"
+                android:layout_marginLeft="40dp"
+                android:text="AB+" />
+
+            <CheckBox
+                android:id="@+id/notificationsettings_fragment_cb_ab-"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/dim_16dp"
+                android:text="AB-" />
+        </TableRow>
+
+    </TableLayout>
+    <TextView
+        android:id="@+id/notificationsettings_fragment_tv_governments"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/gvernments"
+        android:layout_below="@id/notificationsettings_fragment_tl_table"
+        android:layout_marginEnd="@dimen/dim_8dp"
+        android:layout_marginStart="@dimen/dim_8dp"
+        android:layout_marginBottom="@dimen/dim_8dp"
+        android:layout_marginTop="@dimen/dim_8dp"
+        />
+    <TableLayout
+        android:id="@+id/notificationsettings_fragment_tl_table_governments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/dim_8dp"
+        android:layout_marginStart="@dimen/dim_8dp"
+        android:layout_marginBottom="@dimen/dim_8dp"
+        android:background="@color/white"
+android:layout_below="@id/notificationsettings_fragment_tv_governments"
+        >
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            >
+
+            <CheckBox
+                android:id="@+id/notificationsettings_fragment_cb_cairo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dim_4dp"
+                android:text="Cairo" />
+
+            <CheckBox
+                android:id="@+id/notificationsettings_fragment_cb_garbia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+
+                android:text="Garbia" />
+
+            <CheckBox
+                android:id="@+id/notificationsettings_fragment_cb_dakhlia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Dakhlia" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <CheckBox
+                android:id="@+id/notificationsettings_fragment_cb_alsharkia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dim_4dp"
+                android:text="Al Sharkia" />
+
+            <CheckBox
+                android:id="@+id/notificationsettings_fragment_cb_alminia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="40dp"
+                android:layout_marginLeft="40dp"
+                android:text="Alminia" />
+
+            <CheckBox
+                android:id="@+id/notificationsettings_fragment_cb_kafr_alchek"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/dim_16dp"
+                android:text="Kafr Al Cheek" />
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/notificationsettings_fragment_btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/save"
+        android:background="@drawable/shap_btn"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/dim_45dp"
+        />
+
+
+
+</RelativeLayout>

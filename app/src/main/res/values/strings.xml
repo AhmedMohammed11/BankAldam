@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">BankAlDam</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dismiss">dismiss</string>
+    <string name="phone"> Phone</string>
+    <string name="password">Password</string>
+    <string name="rememper">Remember me</string>
+    <string name="login">Login </string>
+    <string name="create_new_account">Create new account</string>
+    <string name="name"> Username</string>
+    <string name="email"> Email </string>
+    <string name="birth_date">Birthday</string>
+    <string name="last_time">Last donation date</string>
+    <string name="blood_type">Blood Type</string>
+    <string name="destrect">government</string>
+    <string name="create">Register</string>
+    <string name="forget_password">Forget password</string>
+    <string name="phone_number">Phone number</string>
+    <string name="send">Send</string>
+    <string name="edite_password">Edite Password</string>
+    <string name="veryfication_code">Verification Code</string>
+    <string name="new_password">New password</string>
+    <string name="confirme_password">Confirm password</string>
+    <string name="government">governments</string>
+    <string name="cites">Cites</string>
+    <string name="title_activity_home_cycle">HomeCycleActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="my_info">My Info</string>
+    <string name="notification_settings">Notification Settings</string>
+    <string name="favorites">Favorites</string>
+    <string name="home">Home</string>
+    <string name="instractions_for_use">Instractions for use</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="about_app">About App</string>
+    <string name="evaluation">Evaluation</string>
+    <string name="sin_out">Sin out</string>
+    <string name="edit_inf">Edit Inf</string>
+    <string name="edit">Edit</string>
+    <string name="blood_types">Blood types</string>
+    <string name="gvernments">gvernments</string>
+    <string name="save">save</string>
+    <string name="namename">Name</string>
+    <string name="category">Category</string>
+    <string name="send_request">Send Request</string>
+    <string name="age">age</string>
+    <string name="hospital_name">Hospital Name</string>
+    <string name="notes">Notes</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="posts">Posts</string>
+    <string name="donations">Donations</string>
+    <string name="call">Call</string>
+    <string name="pation_name">pation name :</string>
+    <string name="hospital">Hospital :</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="warning" />
+    <string name="message_request_GPS_reason" />
+    <string name="ok" />
+
+</resources>

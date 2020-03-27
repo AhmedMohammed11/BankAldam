@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.Activity.HomeCycleActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/darkwhite"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@color/darkwhite"
+                app:popupTheme="@style/AppTheme.PopupOverlay"
+                app:titleTextColor="@color/black" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/toolbar"
+                android:layout_alignBottom="@id/toolbar">
+
+                <ImageView
+                    android:id="@+id/home_cycle_activity_iv_open_navigation"
+                    android:layout_width="@dimen/dim_40dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="@dimen/dim_8dp"
+                    android:layout_marginEnd="@dimen/dim_8dp"
+                    android:src="@drawable/ic_dehaze_black_24dp" />
+
+                <ImageView
+                    android:id="@+id/home_cycle_activity_iv_back"
+                    android:layout_width="@dimen/dim_40dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_keyboard_arrow_right_black_24dp"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/toolbartextview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@color/darkwhite"
+                    android:text="Home"
+                    android:textColor="@color/lightBlack"
+                    android:textSize="@dimen/dim_36sp" />
+
+                <RelativeLayout
+                    android:layout_width="@dimen/dim_50dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="@dimen/dim_8dp">
+
+                    <ImageView
+                        android:id="@+id/home_cycle_activity_iv_open_notification"
+                        android:layout_width="@dimen/dim_40dp"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/ic_notifications_none_black_24dp" />
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_home_cycle" />
+
+</android.support.design.widget.CoordinatorLayout>

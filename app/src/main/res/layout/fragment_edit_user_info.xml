@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/edit_user_info_fragment_rl_sub_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/edit_user_info_fragment_tb_tool_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       android:layout_alignParentTop="true"
+        android:layout_below="@id/edit_user_info_fragment_tb_tool_bar"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/edit_user_info_fragment_et_user_name"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dim_45dp"
+                android:layout_marginStart="@dimen/dim_8dp"
+                android:layout_marginTop="@dimen/dim_16dp"
+                android:layout_marginEnd="@dimen/dim_8dp"
+                android:background="@drawable/shap_et2"
+                android:hint="@string/name"
+                android:padding="@dimen/dim_8dp"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/txt_14sp" />
+
+            <EditText
+                android:id="@+id/edit_user_info_fragment_et_email"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dim_45dp"
+                android:layout_marginStart="@dimen/dim_8dp"
+                android:layout_marginTop="@dimen/dim_8dp"
+                android:layout_marginEnd="@dimen/dim_8dp"
+                android:background="@drawable/shap_et2"
+                android:hint="@string/email"
+                android:inputType="textEmailAddress"
+                android:padding="@dimen/dim_8dp"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/txt_14sp" />
+
+            <TextView
+                android:id="@+id/edit_user_info_fragment_tv_birthday"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dim_45dp"
+                android:layout_marginStart="@dimen/dim_8dp"
+                android:layout_marginTop="@dimen/dim_8dp"
+                android:layout_marginEnd="@dimen/dim_8dp"
+                android:background="@drawable/shap_et2"
+                android:drawableEnd="@drawable/ic_calendar"
+                android:drawablePadding="@dimen/dim_8dp"
+                android:gravity="center_vertical"
+                android:hint="@string/birth_date"
+                android:padding="@dimen/dim_8dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/txt_14sp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dim_45dp"
+                android:layout_marginStart="@dimen/dim_8dp"
+                android:layout_marginTop="@dimen/dim_8dp"
+                android:layout_marginEnd="@dimen/dim_8dp"
+                android:background="@drawable/shap_et2"
+                android:padding="@dimen/dim_4dp"
+                android:textSize="@dimen/txt_14sp">
+
+                <Spinner
+                    android:id="@+id/edit_user_info_fragment_sp_blood_types"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/edit_user_info_fragment_tv_last_donation_date"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dim_45dp"
+                android:layout_marginStart="@dimen/dim_8dp"
+                android:layout_marginTop="@dimen/dim_8dp"
+                android:layout_marginEnd="@dimen/dim_8dp"
+                android:background="@drawable/shap_et2"
+                android:drawableEnd="@drawable/ic_calendar"
+                android:drawablePadding="@dimen/dim_8dp"
+                android:gravity="center_vertical"
+                android:hint="@string/last_time"
+                android:padding="@dimen/dim_8dp"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/txt_14sp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dim_45dp"
+                android:layout_marginStart="@dimen/dim_8dp"
+                android:layout_marginTop="@dimen/dim_8dp"
+                android:layout_marginEnd="@dimen/dim_8dp"
+                android:background="@drawable/shap_et2"
+                android:padding="@dimen/dim_4dp"
+                android:textSize="@dimen/txt_14sp">
+
+                <Spinner
+                    android:id="@+id/edit_user_info_fragment_sp_government"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/edit_user_info_fragment_rl_container_Cities"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dim_45dp"
+                android:layout_marginStart="@dimen/dim_8dp"
+                android:layout_marginTop="@dimen/dim_8dp"
+                android:layout_marginEnd="@dimen/dim_8dp"
+                android:visibility="gone"
+                android:background="@drawable/shap_et2"
+                android:padding="@dimen/dim_4dp"
+                android:textSize="@dimen/txt_14sp">
+
+                <Spinner
+                    android:id="@+id/edit_user_info_fragment_sp_Cities"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </RelativeLayout>
+
+            <EditText
+                android:id="@+id/edit_user_info_fragment_et_phone"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dim_45dp"
+                android:layout_marginStart="@dimen/dim_8dp"
+                android:layout_marginTop="@dimen/dim_8dp"
+                android:layout_marginEnd="@dimen/dim_8dp"
+                android:background="@drawable/shap_et2"
+                android:hint="@string/phone_number"
+                android:inputType="phone"
+                android:padding="@dimen/dim_8dp"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/txt_14sp" />
+
+            <EditText
+                android:id="@+id/edit_user_info_fragment_et_password"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dim_45dp"
+                android:layout_marginStart="@dimen/dim_8dp"
+                android:layout_marginTop="@dimen/dim_8dp"
+                android:layout_marginEnd="@dimen/dim_8dp"
+                android:background="@drawable/shap_et2"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                android:padding="@dimen/dim_8dp"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/txt_14sp" />
+
+            <EditText
+                android:id="@+id/edit_user_info_fragment_et_confirm_password"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dim_45dp"
+                android:layout_marginStart="@dimen/dim_8dp"
+                android:layout_marginTop="@dimen/dim_8dp"
+                android:layout_marginEnd="@dimen/dim_8dp"
+                android:background="@drawable/shap_et2"
+                android:hint="@string/confirme_password"
+                android:inputType="textPassword"
+                android:padding="@dimen/dim_8dp"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/txt_14sp" />
+
+            <Button
+                android:id="@+id/edit_user_info_fragment_btn_edit"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dim_45dp"
+                android:layout_marginStart="@dimen/dim_8dp"
+                android:layout_marginTop="@dimen/dim_8dp"
+                android:layout_marginEnd="@dimen/dim_8dp"
+                android:background="@drawable/shap_btn"
+                android:padding="@dimen/dim_8dp"
+                android:text="@string/edit"
+
+                android:textColor="@color/white"
+                android:textSize="@dimen/txt_14sp" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

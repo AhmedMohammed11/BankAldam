@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <item
+        android:id="@+id/menu_myinfo_menu"
+        android:icon="@drawable/ic_perm_identity_myinfo_24dp"
+        android:title="@string/my_info" />
+    <item
+        android:id="@+id/menu_notificationsettings_menu"
+        android:icon="@drawable/ic_notifications_none_black_24dp"
+        android:title="@string/notification_settings" />
+    <item
+        android:id="@+id/menu_favorite_menu"
+        android:icon="@drawable/ic_favorite_black_24dp"
+        android:title="@string/favorites" />
+    <item
+        android:id="@+id/menu_home_menu"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/home" />
+    <item
+        android:id="@+id/menu_instractions_for_use_menu"
+        android:icon="@drawable/ic_assignment_black_24dp"
+        android:title="@string/instractions_for_use" />
+    <item
+        android:id="@+id/menu_contact_us_menu"
+        android:icon="@drawable/ic_mail_outline_black_24dp"
+        android:title="@string/contact_us" />
+    <item
+        android:id="@+id/menu_about_app_menu"
+        android:icon="@drawable/ic_bookmark_border_black_24dp"
+        android:title="@string/about_app" />
+    <item
+        android:id="@+id/menu_evaluation_menu"
+        android:icon="@drawable/ic_star_border_black_24dp"
+        android:title="@string/evaluation" />
+    <item
+        android:id="@+id/menu_sign_out_menu"
+        android:icon="@drawable/ic_cancel_black_24dp"
+        android:title="@string/sin_out" />
+
+
+
+
+</menu>
